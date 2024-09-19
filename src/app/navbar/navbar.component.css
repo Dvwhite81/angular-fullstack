@@ -1,0 +1,23 @@
+#navbar {
+  align-items: center;
+  background-color: var(--vivid-pink);
+  display: flex;
+  height: var(--nav-height);
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+#nav-logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#navbar a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  transform: scale(1.2);
+}

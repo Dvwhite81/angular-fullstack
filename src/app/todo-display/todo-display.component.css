@@ -1,0 +1,25 @@
+#todo-display {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  #todo-display {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  #todo-display {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  #todo-display {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
